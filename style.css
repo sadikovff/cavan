@@ -1,80 +1,49 @@
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CAVAN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background: #ffffff;
-  color: #111;
-}
+<header>
+  <h1>CAVAN</h1>
+  <nav>
+    <a href="https://instagram.com/" target="_blank">Instagram</a>
+    <a href="#about">About</a>
+    <a href="#shop">Shop</a>
+  </nav>
+</header>
 
-/* HEADER */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 80px;
-}
+<section id="hero">
+  <p>Minimal fashion brand</p>
+</section>
 
-.brand {
-  font-size: 48px;
-  letter-spacing: 8px;
-  font-weight: 500;
-}
+<section id="about">
+  <h2>About</h2>
+  <p>Designed for those who stay young in spirit.</p>
+</section>
 
-/* NAV */
-.nav a {
-  margin-left: 32px;
-  text-decoration: none;
-  font-size: 13px;
-  color: #111;
-  text-transform: uppercase;
-}
+<section id="shop">
+  <h2>Shop</h2>
+  <p>Products coming soon.</p>
+</section>
 
-/* HERO */
-.hero {
-  height: 60vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+</body>
+</html>
 
-.tagline {
-  font-size: 18px;
-  letter-spacing: 1px;
-  color: #555;
-}
-
-/* SECTIONS */
-.section {
-  padding: 120px 80px;
-  max-width: 900px;
-}
-
-.section h2 {
-  font-size: 20px;
-  letter-spacing: 2px;
-  margin-bottom: 20px;
-}
-
-.section p {
-  font-size: 15px;
-  line-height: 1.8;
-  color: #444;
-}
-
-.soon {
-  font-style: italic;
-  color: #777;
-}
-
-/* FOOTER */
-.footer {
-  padding: 40px 80px;
-  font-size: 12px;
-  color: #777;
-}
-</style>
+<section id="about" class="section">
+  <p class="about-text">
+    Designed for those who stay young in spirit.
+  </p>
+</section>
+<section id="instagram" class="section">
+  <a 
+    href="https://www.instagram.com/cavan.lab?igsh=eDN2aWxxZWsxd2lj" 
+    target="_blank"
+    class="insta-link"
+  >
+    Follow us on Instagram
+  </a>
+</section>
